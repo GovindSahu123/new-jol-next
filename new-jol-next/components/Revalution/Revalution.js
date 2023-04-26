@@ -25,9 +25,16 @@ const Revalution = () => {
                             <h1>RAVOLUTION FESTIVAL </h1>
                             <p>VIETNAM ROUTE, DECEMBER 2023</p>
                             <p className={clsx(styles.dataPara)} style={{ marginBottom: "0px" }} >2nd Dec - 6th Dec 2023</p>
-                            <div className={clsx(styles.ravpink2)} style={{ display: "flex", justifyContent: "flex-end", width: "70%", margin: "10px 0px 10px 0px" }}>
-                                <img src='/assests/rev-pink-line2.svg' alt='pink-dance-img' className='img-fluid' />
+
+                            <div className='row m-0'>
+                                <div className='col-xl-8 col-lg-10 col-md-11 p-0'>
+                                    <div className={clsx(styles.ravpink2)} style={{ display: "flex", justifyContent: "flex-end", margin: "10px 0px 10px 0px" }}>
+                                        <img src='/assests/rev-pink-line2.svg' alt='pink-dance-img' className='img-fluid' />
+                                    </div>
+
+                                </div>
                             </div>
+
 
                             <button  >Pre-Register Now</button>
                         </div>
